@@ -1,0 +1,47 @@
+{
+  "recorded_date": "2026-10-27",
+  "recorded_protocol_id": "e83222496a4a98300e8985e459774427c97be69444301d76b12e3014b234ea1e",
+  "recorded_source_protocol_id": "e045e498aebce9030c6ff61e0955b3a93b50f835c4c4819970c7d0833380a4fe",
+  "recorded_notebooks": [
+    "Pokemon_FourModel_CV687.ipynb",
+    "Pokemon_AllSchemes_CV687.ipynb"
+  ],
+  "recorded_environment": {
+    "python": "3.11.15",
+    "torch": "2.5.0",
+    "torchvision": "0.20.0",
+    "cuda": "12.4",
+    "numpy": "2.0.1",
+    "pandas": "3.0.2",
+    "sklearn": "1.7.1",
+    "pillow": "11.1.0",
+    "matplotlib": "3.10.8",
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU"
+  },
+  "unique_conditions": 7,
+  "trained_variants": 6,
+  "training_trajectories": 36,
+  "aliases": {
+    "C": "Plain_GAP",
+    "G1": "Plain_GAP"
+  },
+  "reference_tables": {
+    "all_schemes_summary.csv": "9ab104dc755a25500dca20daddc6575a305dbdef4b331aef5f0f8fc858b8e55f",
+    "cv_aggregate.csv": "4f0707c13b4beec2432a14359c6a87c33d5edcc23382239907bcf9cc615ae8a8",
+    "cv_fold_results.csv": "586516aa7ab51f3315806af4f705149a09baee0d26cb2d691d5599dff2c29ca5",
+    "all_class_test_AP.csv": "61065badbd665386d7b3611c4194084afd56ee263d1325ba3d430e5ea642f358",
+    "test_confusion_counts.csv": "e407c497f0cfbaf7b8f9ec5a2d46cd8d57162b65b2c67c5a3093a7fdac6e90af",
+    "planned_contrasts.csv": "4b941301747df7b5e649aa60a09c54949f8cb58fa34daa1d8545d339f9edcfd9",
+    "all_pairwise_deltas.csv": "75dc82a5d94d23c5e8766631f74a626593fd577031bd4451175e4eec7ce31f99",
+    "fusion_weights.csv": "d6d561a3c6bfa7afa66db6c15e744c675ef0732a1d904f177ae25398d7472ba2",
+    "G2_fixed_source_threshold_diagnostics.csv": "bcd3886aa30043d23909207525b2cba9453a4d26b58b65d456af465eb840ec15"
+  },
+  "scope": "已完成实验的只读参考成绩。公开代码保持方法和选择规则，完成小样本等价核验；未重新运行完整36条训练。历史留出集不是新盲测。",
+  "public_changes": [
+    "相对路径及环境变量",
+    "独立初始化和七组完整执行",
+    "固定原始划分及语义数据身份检查",
+    "结果查看与检查训练入口分离",
+    "清除本机路径和历史文件强依赖"
+  ]
+}
