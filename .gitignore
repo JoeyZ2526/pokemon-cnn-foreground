@@ -1,0 +1,29 @@
+# 原始数据与本地实验产物；results/ 中的已发布结果保留。
+/data/
+/datasets/
+/outputs/
+/weights/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.npz
+
+# 环境配置与 Python/Jupyter 缓存。
+.env
+.env.*
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# 编辑器和系统生成的本地文件。
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+~$*

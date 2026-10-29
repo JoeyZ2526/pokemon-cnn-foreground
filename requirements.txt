@@ -1,0 +1,9 @@
+# Python 3.11；记录实际实验使用的主要依赖版本。
+# GPU 安装方式见 README，先按官方索引安装对应的 torch/torchvision。
+torch==2.5.0
+torchvision==0.20.0
+numpy==2.0.1
+pandas==3.0.2
+scikit-learn==1.7.1
+Pillow==11.1.0
+matplotlib==3.10.8
